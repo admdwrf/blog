@@ -1,0 +1,22 @@
+BaseUrl: "http://blog.fredalix.com"
+LanguageCode: "en-us"
+Title: "Frederic Alix's blog"
+Theme: "beg"
+
+Params:
+  Author: "Frederic Alix"
+  DateForm: "Mon, Jan 2, 2006"
+  GoogleAnalyticsUserID: "UA-55810683-4"
+  Twitter: "fredericalix"
+  Github: "admdwrf"
+  ShowRelatedPost: True
+  Disqus: "blog.fredalix.com"
+  SyntaxHighlightTheme: "github.min.css"
+
+Indexes:
+  tag: "tags"
+
+permalinks:
+  post: /blog/:year/:month/:day/:slug/
+
+MetadataFormat: "yaml"
